@@ -1,3 +1,4 @@
+origin: https://github.com/jpmikkers/Baksteen.Extensions.DeepCopy
 # C# extension method for fast object cloning.
 
 This is a speed-optimized fork of Alexey Burtsev's deep copier. Depending on your usecase, this will be 2x - 3x faster than the original. It also fixes some bugs which are present in the original code. Compared to the classic binary serialization/deserialization deep clone technique, this version is about seven times faster (the more arrays your objects contain, the bigger the speedup factor).
